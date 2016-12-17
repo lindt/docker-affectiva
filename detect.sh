@@ -8,7 +8,7 @@ handle_failure () {
 register_traps () {
   for sig in "$@"
   do
-    trap "handle_failure"
+    trap "handle_failure" "$sig"
   done
 }
 
