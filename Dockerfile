@@ -2,8 +2,8 @@ FROM ubuntu:14.04
 MAINTAINER think@hotmail.de
 
 ENV \
-  AFFDEX_DATA_DIR /affdex-sdk/data \
-  AFFECTIVA_SDK_VERSION 3.1.1-2802
+  AFFDEX_DATA_DIR=/affdex-sdk/data \
+  AFFECTIVA_SDK_VERSION=3.1.1-2802
 COPY detect.sh /
 
 RUN apt-get update && apt-get install -y \
