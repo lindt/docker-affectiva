@@ -2,7 +2,7 @@
 [![Docker Build](https://img.shields.io/docker/automated/think/affectiva.svg)](https://hub.docker.com/r/think/affectiva/)
 [![Latest Tag](https://img.shields.io/github/tag/lindt/docker-affectiva.svg)](https://hub.docker.com/r/think/affectiva/)
 
-# docket-affectiva
+# docker-affectiva
 
 Docker Image for [Affectiva](http://www.affectiva.com/). Recognizes Emotions on images.
 
