@@ -26,7 +26,7 @@ RUN apt-get update && apt-get install -y \
  && rm -rf /sdk-samples \
  && chmod +x /detect.sh \
  && ln /dev/null /dev/raw1394 \
- && apt-get remove --purge -y build-essential cmake git gzip tar wget \
+ && apt-get remove --purge -y build-essential cmake git wget \
  && rm -rf /var/lib/apt/lists/*
 
 WORKDIR "/build/video-demo"
