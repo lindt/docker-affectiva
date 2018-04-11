@@ -1,6 +1,7 @@
 [![Docker pulls](https://img.shields.io/docker/pulls/think/affectiva.svg)](https://hub.docker.com/r/think/affectiva/)
 [![Docker Build](https://img.shields.io/docker/automated/think/affectiva.svg)](https://hub.docker.com/r/think/affectiva/)
 [![Latest Tag](https://img.shields.io/github/tag/lindt/docker-affectiva.svg)](https://hub.docker.com/r/think/affectiva/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flindt%2Fdocker-affectiva.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flindt%2Fdocker-affectiva?ref=badge_shield)
 
 # docker-affectiva
 
@@ -43,3 +44,7 @@ TimeStamp,faceId,interocularDistance,glasses,age,ethnicity,gender,dominantEmoji,
 ## References
 
  - based on [Affectiva SDK](http://developer.affectiva.com/)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flindt%2Fdocker-affectiva.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flindt%2Fdocker-affectiva?ref=badge_large)
